@@ -1,0 +1,62 @@
+body{
+	font-family: Arial, sans-serif;
+}
+
+h1{
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+h3{
+  margin-top: 0;
+  font-size: 160%;
+}
+
+.navbar-brand{
+  font-size: 200%;
+  font-weight: bold;
+  text-align: left;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+
+.high{
+  padding: 10px;
+  text-align: justify;
+  background-color: #F8F8F8;
+  margin-bottom: 40px;
+}
+
+#header-nav{
+  background-color: #234D67;
+}
+
+#collapsable-nav{
+  width: 100%;
+  text-align: center;
+  background-color: #234D67;
+  margin: 0;
+}
+
+#nav-list a{
+  text-align: center;
+}
+
+#nav-list a:hover{
+  background-color: #F8F8F8;
+}
+
+
+@media (max-width: 767px) {
+
+.high{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+}
+
+
+
+
